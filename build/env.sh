@@ -10,7 +10,7 @@ fi
 # Create fake Go workspace if it doesn't exist yet.
 workspace="$PWD/build/_workspace"
 root="$PWD"
-ethdir="$workspace/src/github.com/etherark"
+ethdir="$workspace/src/github.com/ether-ark"
 if [ ! -L "$ethdir/etherark" ]; then
     mkdir -p "$ethdir"
     cd "$ethdir"
