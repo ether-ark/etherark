@@ -36,7 +36,7 @@ const (
 )
 
 // ProtocolName is the official short name of the protocol used during capability negotiation.
-var ProtocolName = "auc"
+var ProtocolName = "eta"
 
 // ProtocolVersions are the supported versions of the eth protocol (first is primary).
 var ProtocolVersions = []uint{eta64, eta63, eta62}
