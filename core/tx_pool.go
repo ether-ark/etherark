@@ -59,7 +59,7 @@ var (
 	// ErrInsufficientFunds is returned if the total cost of executing a transaction
 	// is higher than the balance of the user's account.
 	ErrInsufficientFunds = errors.New("insufficient funds for value")
-	ErrInsufficientMinFunds = errors.New("insufficient funds for 1 AUC")
+	ErrInsufficientMinFunds = errors.New("insufficient funds for 1 ETA")
 	ErrInsufficientPower = errors.New("insufficient power for gas * price")
 
 	// ErrIntrinsicGas is returned if the transaction is specified to use less gas
